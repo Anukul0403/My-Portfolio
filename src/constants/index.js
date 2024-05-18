@@ -276,7 +276,7 @@ export const socials = [
   {
     id: "2",
     title: "Email",
-    iconUrl: "../src/assets/icons/mail.svg",
+    iconUrl: "./src/assets/icons/mail.svg",
     url: "mailto:anukulgupta17@gmail.com",
   },
 
