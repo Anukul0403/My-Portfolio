@@ -37,6 +37,28 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+import tailwind from "../assets/icons/tailwind.svg";
+import mail from "../assets/icons/mail.svg";
+import html from "../assets/icons/html.svg";
+import react from "../assets/icons/react.svg";
+import blank1 from "../assets/icons/blank1.png";
+import c from "../assets/icons/c.svg";
+import cpp from "../assets/icons/cpp.svg";
+import git from "../assets/icons/git.svg";
+import django from "../assets/icons/django.svg";
+import linkedin from "../assets/icons/linkedin.svg";
+import python from "../assets/icons/python.svg";
+import scikitlearn from "../assets/icons/scikitlearn.png";
+import powerBI from "../assets/icons/powerBI.svg";
+import mongodb1 from "../assets/icons/mongodb1.svg";
+import github1 from "../assets/icons/github1.svg";
+import mysql from "../assets/icons/mysql.svg";
+import card1 from "../assets/benefits/card-1.svg";
+import card2 from "../assets/benefits/card-2.svg";
+import card3 from "../assets/benefits/card-3.svg";
+import card4 from "../assets/benefits/card-4.svg";
+import card5 from "../assets/benefits/card-5.svg";
+import card6 from "../assets/benefits/card-6.svg";
 
 export const navigation = [
   {
@@ -145,62 +167,62 @@ export const skills = [
     id: "0",
     title: "Web Development",
     text: "I possess a strong command of web development, evidenced by my adeptness in various technologies and frameworks, with a track record of successfully completing various projects in the field.",
-    iconUrl: "./src/assets/icons/html.svg",
-    iconUrl2: "./src/assets/icons/tailwind.svg",
-    iconUrl3: "./src/assets/icons/react.svg",
-    iconUrl4: "./src/assets/icons/django.svg",
+    iconUrl: html,
+    iconUrl2: tailwind,
+    iconUrl3: react,
+    iconUrl4: django,
     
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: card1,
   },
   {
     id: "1",
     title: "Machine Learning",
     text:"I possess strong proficiency in machine learning, having crafted several impactful projects in the domain, which serve as a testament to my expertise and dedication to innovation.",
-    iconUrl: "./src/assets/icons/python.svg",
-    iconUrl2: "./src/assets/icons/blank1.png",
-    iconUrl3: "./src/assets/icons/blank1.png",
-    iconUrl4: "./src/assets/icons/blank1.png",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    iconUrl: python,
+    iconUrl2: scikitlearn,
+    iconUrl3: powerBI,
+    iconUrl4: blank1,
+    backgroundUrl: card2,
   },
   {
     id: "2",
     title: "Data Structures And Algorithms",
     text:"Proefficient in Data Structures And Algorithms.",
-    iconUrl: "./src/assets/icons/blank1.png",
-    iconUrl2: "./src/assets/icons/blank1.png",
-    iconUrl3: "./src/assets/icons/blank1.png",
-    iconUrl4: "./src/assets/icons/blank1.png",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: blank1,
+    iconUrl2: blank1,
+    iconUrl3: blank1,
+    iconUrl4: blank1,
+    backgroundUrl:card3,
   },
   {
     id: "3",
     title: "C/C++",
     text:"I excel in C and C++, having honed my skills through completing Data Structures and Algorithms coursework. With a solid foundation in DSA, I'm equipped to tackle programming challenges effectively.",
-    iconUrl: "./src/assets/icons/c.svg",
-    iconUrl2: "./src/assets/icons/cpp.svg",
-    iconUrl3: "./src/assets/icons/blank1.png",
-    iconUrl4: "./src/assets/icons/blank1.png",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    iconUrl: c,
+    iconUrl2: cpp,
+    iconUrl3: blank1,
+    iconUrl4: blank1,
+    backgroundUrl: card4,
   },
   {
     id: "4",
     title: "Databases",
     text:"I demonstrate adeptness in database management, facilitating seamless data organization and retrieval. My proficiency in databases ensures smooth operations and informed decision-making.",
-    iconUrl: "./src/assets/icons/mysql.svg",
-    iconUrl2: "./src/assets/icons/mongodb1.svg",
-    iconUrl3: "./src/assets/icons/blank1.png",
-    iconUrl4: "./src/assets/icons/blank1.png",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    iconUrl: mysql,
+    iconUrl2: mongodb1,
+    iconUrl3: blank1,
+    iconUrl4: blank1,
+    backgroundUrl: card5,
   },
   {
     id: "5",
     title: "Others",
     text:"I am proficient in using Git and GitHub, adept at version control, collaborative development, and repository management, ensuring efficient project workflow and seamless team collaboration.",
-    iconUrl: "./src/assets/icons/git.svg",
-    iconUrl2: "./src/assets/icons/github1.svg",
-    iconUrl3: "./src/assets/icons/blank1.png",
-    iconUrl4: "./src/assets/icons/blank1.png",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: git,
+    iconUrl2: github1,
+    iconUrl3: blank1,
+    iconUrl4: blank1,
+    backgroundUrl: card6,
   },
 ]
 
@@ -220,7 +242,7 @@ export const projects = [
     id: "1",
     title: "Attendance Using Face Recognition",
     text: "This system automates attendance tracking by capturing faces through a camera, matching them to a database, and logging attendance data directly into an Excel sheet, using OpenCV.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: card2,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -229,7 +251,7 @@ export const projects = [
     id: "2",
     title: "Movie Reccomend- ation Site",
     text: "Movie recommendation site, leveraging advanced techniques like count vectorization and cosine similarity. Built with React and Tailwind CSS for a sleek and intuitive browsing experience.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl:card3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
@@ -237,7 +259,7 @@ export const projects = [
     id: "3",
     title: "Personal Portfolio Website",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: card4,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
@@ -246,7 +268,7 @@ export const projects = [
     id: "4",
     title: "Deepfake voice detection",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: card5,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -254,7 +276,7 @@ export const projects = [
     id: "5",
     title: "Improve everyday Anywhere",
     text: "The app uses natural language processing to understand user queries accurate and relevant.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: card6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
@@ -264,18 +286,18 @@ export const socials = [
   {
     id: "0",
     title: "LinkedIn",
-    iconUrl: "./src/assets/icons/linkedin.svg",
+    iconUrl: linkedin,
     url: "https://www.linkedin.com/in/anukul-gupta-541466228/",
   },
   {
     id: "1",
-    title: "Github",
+    title: github1,
     iconUrl: "./src/assets/icons/github1.svg",
     url: "https://github.com/Anukul0403",
   },
   {
     id: "2",
-    title: "Email",
+    title: mail,
     iconUrl: "./src/assets/icons/mail.svg",
     url: "mailto:anukulgupta17@gmail.com",
   },

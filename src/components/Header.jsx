@@ -63,7 +63,7 @@ const Header = () => {
             <HamburgerMenu />
         </nav>
         <Button
-          href="#Resume"
+          href="https://drive.google.com/file/d/12mjHCRjMq29P-IUxMlY4A7DAwtvHRMo7/view?usp=sharing"
           className=" hidden lg:flex text-n-1 transition-colors hover:text-color-1 text-[1rem] font-semibold  "
         >
           Resume
